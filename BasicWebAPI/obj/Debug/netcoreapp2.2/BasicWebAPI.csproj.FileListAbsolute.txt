@@ -1,0 +1,15 @@
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\bin\Debug\netcoreapp2.2\BasicWebAPI.deps.json
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\bin\Debug\netcoreapp2.2\BasicWebAPI.runtimeconfig.json
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\bin\Debug\netcoreapp2.2\BasicWebAPI.runtimeconfig.dev.json
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\bin\Debug\netcoreapp2.2\BasicWebAPI.dll
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\bin\Debug\netcoreapp2.2\BasicWebAPI.pdb
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\obj\Debug\netcoreapp2.2\BasicWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\obj\Debug\netcoreapp2.2\BasicWebAPI.RazorAssemblyInfo.cache
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\obj\Debug\netcoreapp2.2\BasicWebAPI.RazorAssemblyInfo.cs
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\obj\Debug\netcoreapp2.2\BasicWebAPI.AssemblyInfoInputs.cache
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\obj\Debug\netcoreapp2.2\BasicWebAPI.AssemblyInfo.cs
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\obj\Debug\netcoreapp2.2\BasicWebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\obj\Debug\netcoreapp2.2\BasicWebAPI.dll
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\obj\Debug\netcoreapp2.2\BasicWebAPI.pdb
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\obj\Debug\netcoreapp2.2\BasicWebAPI.csprojAssemblyReference.cache
+C:\Users\abchauhan\source\repos\BasicWebAPI\BasicWebAPI\bin\Debug\netcoreapp2.2\nlog.config

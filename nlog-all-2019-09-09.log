@@ -1,0 +1,215 @@
+2019-09-09 18:59:00.1006|INFO|BasicWebAPI.Program|In Main Method
+2019-09-09 18:59:19.2439|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\abchauhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 18:59:24.6902|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/values  
+2019-09-09 18:59:25.2426|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2019-09-09 18:59:26.1845|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 18:59:26.6399|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller BasicWebAPI.Controllers.ValuesController (BasicWebAPI).
+2019-09-09 18:59:26.7976|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 18:59:26.8577|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.8969ms.
+2019-09-09 18:59:27.1032|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2019-09-09 18:59:27.8384|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) in 1029.941ms
+2019-09-09 18:59:28.3441|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 18:59:28.6833|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3778.1166ms 200 application/json; charset=utf-8
+2019-09-09 18:59:36.1945|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/Book application/json 128
+2019-09-09 18:59:36.5198|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Get (BasicWebAPI)'
+2019-09-09 18:59:36.7296|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 18:59:36.7836|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 18:59:36.8132|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.9215ms.
+2019-09-09 18:59:36.8493|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BasicWebAPI.Model.Book, BasicWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 18:59:36.9563|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Get (BasicWebAPI) in 175.6435ms
+2019-09-09 18:59:37.3552|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Get (BasicWebAPI)'
+2019-09-09 18:59:37.8514|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1245.5343ms 200 application/json; charset=utf-8
+2019-09-09 19:06:13.6244|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\abchauhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 19:06:18.5767|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/values  
+2019-09-09 19:06:18.6707|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2019-09-09 19:06:18.9515|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:06:19.3614|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller BasicWebAPI.Controllers.ValuesController (BasicWebAPI).
+2019-09-09 19:06:19.7019|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:06:19.8361|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.958ms.
+2019-09-09 19:06:19.9309|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2019-09-09 19:06:20.4319|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) in 1024.1045ms
+2019-09-09 19:06:20.4528|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:06:20.5504|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1907.816ms 200 application/json; charset=utf-8
+2019-09-09 19:06:37.4720|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:59546/api/Book application/json 128
+2019-09-09 19:06:37.5786|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:06:37.6560|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature System.String Post(BasicWebAPI.Model.Book) on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:06:38.1432|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:06:38.1598|ERROR|BasicWebAPI.Service.BookService|BasicWebAPI.Exceptions.InvalidIdException: Invalid Id.Id cannot be negative
+2019-09-09 19:06:38.3844|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 102.0019ms.
+2019-09-09 19:06:38.6695|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-09-09 19:06:38.9319|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) in 1069.1114ms
+2019-09-09 19:06:39.0591|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:06:39.5042|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1705.3382ms 200 text/plain; charset=utf-8
+2019-09-09 19:14:19.6261|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\abchauhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 19:14:24.0749|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/values  
+2019-09-09 19:14:24.1480|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2019-09-09 19:14:24.3617|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:14:24.5199|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller BasicWebAPI.Controllers.ValuesController (BasicWebAPI).
+2019-09-09 19:14:24.6609|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:14:24.7454|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.8267ms.
+2019-09-09 19:14:25.0407|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2019-09-09 19:14:26.0080|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) in 1408.37ms
+2019-09-09 19:14:26.0701|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:14:26.4279|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2035.8357ms 200 application/json; charset=utf-8
+2019-09-09 19:14:41.7301|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:59546/api/Book application/json 127
+2019-09-09 19:14:41.9591|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:14:42.2935|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature System.String Post(BasicWebAPI.Model.Book) on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:14:42.7248|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:14:42.7407|INFO|BasicWebAPI.Service.BookService|Inside AddNewBook method
+2019-09-09 19:14:42.7469|INFO|BasicWebAPI.Service.BookService|Book added succesfully
+2019-09-09 19:14:42.9545|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16.1246ms.
+2019-09-09 19:14:43.2295|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-09-09 19:14:43.6799|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) in 914.3484ms
+2019-09-09 19:14:44.0396|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:14:44.1934|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2467.0633ms 200 text/plain; charset=utf-8
+2019-09-09 19:14:49.1937|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:59546/api/Book application/json 128
+2019-09-09 19:14:49.2419|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:14:49.3026|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature System.String Post(BasicWebAPI.Model.Book) on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:14:49.3293|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:14:49.3293|INFO|BasicWebAPI.Service.BookService|Inside AddNewBook method
+2019-09-09 19:14:49.3410|ERROR|BasicWebAPI.Service.BookService|BasicWebAPI.Exceptions.InvalidIdException: Invalid Id.Id cannot be negative
+2019-09-09 19:14:49.3845|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 35.9056ms.
+2019-09-09 19:14:49.6604|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-09-09 19:14:49.9584|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) in 441.4752ms
+2019-09-09 19:14:50.0405|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:14:50.1997|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 912.6201ms 200 text/plain; charset=utf-8
+2019-09-09 19:20:31.7593|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\abchauhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 19:20:36.0582|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/values  
+2019-09-09 19:20:36.1603|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2019-09-09 19:20:36.5750|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:20:37.0184|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller BasicWebAPI.Controllers.ValuesController (BasicWebAPI).
+2019-09-09 19:20:37.1076|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:20:37.2868|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9825ms.
+2019-09-09 19:20:37.5662|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2019-09-09 19:20:38.3147|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) in 1244.9925ms
+2019-09-09 19:20:38.3474|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:20:38.5008|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2429.6123ms 200 application/json; charset=utf-8
+2019-09-09 19:20:50.1077|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:59546/api/Book application/json 127
+2019-09-09 19:20:50.1372|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:20:50.2423|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature System.String Post(BasicWebAPI.Model.Book) on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:20:50.7741|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:20:50.8067|INFO|BasicWebAPI.Service.BookService|Inside AddNewBook method
+2019-09-09 19:20:50.8526|INFO|BasicWebAPI.Service.BookService|Book added succesfully
+2019-09-09 19:20:51.3714|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 112.2634ms.
+2019-09-09 19:20:51.5929|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-09-09 19:20:52.0529|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) in 1431.1262ms
+2019-09-09 19:20:52.5028|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:20:52.6762|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2476.7877ms 200 text/plain; charset=utf-8
+2019-09-09 19:20:57.6029|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:59546/api/Book application/json 127
+2019-09-09 19:20:57.7249|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:20:57.9297|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature System.String Post(BasicWebAPI.Model.Book) on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:20:58.0973|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:20:58.1179|INFO|BasicWebAPI.Service.BookService|Inside AddNewBook method
+2019-09-09 19:20:58.1316|INFO|BasicWebAPI.Service.BookService|Book added succesfully
+2019-09-09 19:20:58.6748|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 35.0789ms.
+2019-09-09 19:20:58.9810|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-09-09 19:20:59.0803|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) in 1069.7174ms
+2019-09-09 19:20:59.5618|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:20:59.7193|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2104.6026ms 200 text/plain; charset=utf-8
+2019-09-09 19:21:09.3299|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:59546/api/Book application/json 128
+2019-09-09 19:21:09.6024|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:21:09.7727|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Book"}. Executing controller action with signature System.String Post(BasicWebAPI.Model.Book) on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:21:10.0466|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:21:10.0745|INFO|BasicWebAPI.Service.BookService|Inside AddNewBook method
+2019-09-09 19:21:10.1028|ERROR|BasicWebAPI.Service.BookService|BasicWebAPI.Exceptions.InvalidBookNameException: Invalid Book Name.Name should contain only alphabets
+2019-09-09 19:21:10.5755|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Post (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 139.7868ms.
+2019-09-09 19:21:10.7013|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-09-09 19:21:11.2485|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Post (BasicWebAPI) in 926.0233ms
+2019-09-09 19:21:11.9217|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Post (BasicWebAPI)'
+2019-09-09 19:21:12.3566|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2847.3958ms 200 text/plain; charset=utf-8
+2019-09-09 19:21:22.6678|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/Book application/json 128
+2019-09-09 19:21:22.8333|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Get (BasicWebAPI)'
+2019-09-09 19:21:22.9240|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:21:23.1718|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:21:23.1902|INFO|BasicWebAPI.Service.BookService|Returned Book List Successfully
+2019-09-09 19:21:23.3055|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 43.6617ms.
+2019-09-09 19:21:23.5129|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BasicWebAPI.Model.Book, BasicWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 19:21:23.7247|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Get (BasicWebAPI) in 599.7334ms
+2019-09-09 19:21:24.1316|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Get (BasicWebAPI)'
+2019-09-09 19:21:24.4757|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1677.8688ms 200 application/json; charset=utf-8
+2019-09-09 19:21:37.3218|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:59546/api/Book/6 application/json 128
+2019-09-09 19:21:37.6833|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Delete (BasicWebAPI)'
+2019-09-09 19:21:37.9956|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Delete", controller = "Book"}. Executing controller action with signature System.String Delete(Int32) on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:21:38.1631|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Delete (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:21:38.1834|INFO|BasicWebAPI.Service.BookService|Inside DeleteBook Method
+2019-09-09 19:21:38.1834|INFO|BasicWebAPI.Service.BookService|Book Deleted Successfully
+2019-09-09 19:21:38.4926|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Delete (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13.7466ms.
+2019-09-09 19:21:38.6649|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-09-09 19:21:38.7479|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Delete (BasicWebAPI) in 625.3877ms
+2019-09-09 19:21:38.9424|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Delete (BasicWebAPI)'
+2019-09-09 19:21:39.5241|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1638.8323ms 200 text/plain; charset=utf-8
+2019-09-09 19:21:44.5877|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:59546/api/Book/2 application/json 128
+2019-09-09 19:21:44.6185|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Delete (BasicWebAPI)'
+2019-09-09 19:21:44.6393|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Delete", controller = "Book"}. Executing controller action with signature System.String Delete(Int32) on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:21:44.6868|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Delete (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:21:44.6934|INFO|BasicWebAPI.Service.BookService|Inside DeleteBook Method
+2019-09-09 19:21:44.6934|INFO|BasicWebAPI.Service.BookService|Book Deleted Successfully
+2019-09-09 19:21:44.7207|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Delete (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 12.5009ms.
+2019-09-09 19:21:44.8751|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-09-09 19:21:45.0014|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Delete (BasicWebAPI) in 326.5407ms
+2019-09-09 19:21:45.0561|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Delete (BasicWebAPI)'
+2019-09-09 19:21:45.2382|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 728.963ms 200 text/plain; charset=utf-8
+2019-09-09 19:25:15.7993|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\abchauhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 19:25:21.1774|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/values  
+2019-09-09 19:25:21.3253|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2019-09-09 19:25:21.7701|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:25:22.0072|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller BasicWebAPI.Controllers.ValuesController (BasicWebAPI).
+2019-09-09 19:25:22.0904|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:25:22.1291|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.3317ms.
+2019-09-09 19:25:22.1795|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2019-09-09 19:25:22.7612|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) in 691.1414ms
+2019-09-09 19:25:22.8280|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:25:23.3747|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1682.7821ms 200 application/json; charset=utf-8
+2019-09-09 19:25:31.2876|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/Book application/json 128
+2019-09-09 19:25:31.6111|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Get (BasicWebAPI)'
+2019-09-09 19:25:32.1005|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:25:32.9461|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:25:32.9461|INFO|BasicWebAPI.Service.BookService|Returned Book List Successfully
+2019-09-09 19:25:33.2832|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13.5452ms.
+2019-09-09 19:25:33.7120|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BasicWebAPI.Model.Book, BasicWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 19:25:34.3650|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Get (BasicWebAPI) in 1757.008ms
+2019-09-09 19:25:34.5056|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Get (BasicWebAPI)'
+2019-09-09 19:25:34.6011|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3472.7815ms 200 application/json; charset=utf-8
+2019-09-09 19:26:52.7606|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\abchauhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 19:26:57.7724|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/values  
+2019-09-09 19:26:57.9462|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2019-09-09 19:26:58.3830|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:26:58.7962|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller BasicWebAPI.Controllers.ValuesController (BasicWebAPI).
+2019-09-09 19:26:59.0429|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:26:59.5858|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.0271ms.
+2019-09-09 19:26:59.8413|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2019-09-09 19:27:00.7576|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) in 1914.5137ms
+2019-09-09 19:27:01.2627|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:27:01.9403|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3649.9128ms 200 application/json; charset=utf-8
+2019-09-09 19:27:07.6404|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/Book application/json 128
+2019-09-09 19:27:07.7914|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Get (BasicWebAPI)'
+2019-09-09 19:27:07.9328|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:27:07.9871|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:27:08.0052|INFO|BasicWebAPI.Service.BookService|Returned Book List Successfully
+2019-09-09 19:27:08.0425|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23.7516ms.
+2019-09-09 19:27:08.1568|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BasicWebAPI.Model.Book, BasicWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 19:27:08.8869|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Get (BasicWebAPI) in 447.5834ms
+2019-09-09 19:27:09.3259|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Get (BasicWebAPI)'
+2019-09-09 19:27:09.4850|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1743.6399ms 200 application/json; charset=utf-8
+2019-09-09 19:30:34.3481|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\abchauhan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 19:30:39.1397|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/values  
+2019-09-09 19:30:39.4235|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2019-09-09 19:30:39.7345|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:30:40.2543|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller BasicWebAPI.Controllers.ValuesController (BasicWebAPI).
+2019-09-09 19:30:40.4484|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:30:40.8099|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.099ms.
+2019-09-09 19:30:41.1090|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'.
+2019-09-09 19:30:41.9609|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI) in 1674.9983ms
+2019-09-09 19:30:41.9924|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.ValuesController.Get (BasicWebAPI)'
+2019-09-09 19:30:42.0735|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2933.3771ms 200 application/json; charset=utf-8
+2019-09-09 19:30:48.5084|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:59546/api/Book application/json 128
+2019-09-09 19:30:48.6492|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BasicWebAPI.Controllers.BookController.Get (BasicWebAPI)'
+2019-09-09 19:30:48.8559|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller BasicWebAPI.Controllers.BookController (BasicWebAPI).
+2019-09-09 19:30:49.2207|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method BasicWebAPI.Controllers.BookController.Get (BasicWebAPI) - Validation state: Valid
+2019-09-09 19:30:49.2869|INFO|BasicWebAPI.Service.BookService|Returned Book List Successfully
+2019-09-09 19:30:49.9407|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method BasicWebAPI.Controllers.BookController.Get (BasicWebAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 113.7934ms.
+2019-09-09 19:30:50.4824|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[BasicWebAPI.Model.Book, BasicWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 19:30:51.0537|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action BasicWebAPI.Controllers.BookController.Get (BasicWebAPI) in 1819.3752ms
+2019-09-09 19:30:51.2324|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BasicWebAPI.Controllers.BookController.Get (BasicWebAPI)'
+2019-09-09 19:30:51.2613|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2766.9271ms 200 application/json; charset=utf-8
+2019-09-09 19:34:34.9659|INFO|BasicWebAPI.Service.BookService|Returned Book List Successfully
